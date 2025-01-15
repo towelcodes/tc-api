@@ -1,0 +1,11 @@
+[package]
+name = "tc-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.1"
+serenity = "0.12.4"
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
